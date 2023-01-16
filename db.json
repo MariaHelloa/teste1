@@ -1,9 +1,82 @@
 {
-  "exemple": [
-    {
-      "id": 1,
-      "titulo": "Estudar JS",
-      "status": false
-    }
-  ]
-}
+    "filmes": [
+        {
+          "id": 1,
+          "titulo": "Cães de Aluguel",
+          "classificacao": "16 anos",
+          "genero": "Suspense"
+        },
+        {
+            "id": 2,
+            "titulo": "O Labirinto do Fauno ",
+            "classificacao": "16 anos",
+            "genero": "Fantasia, Drama"
+          },
+          {
+            "id": 3,
+            "titulo": "Coração Valente",
+            "classificacao": "16 anos ",
+            "genero": "Ação, Aventura"
+          },
+          {
+            "id": 4,
+            "titulo": "Quem Quer Ser um Milionário?",
+            "classificacao": "16 anos",
+            "genero": "Romance, Drama"
+          }
+      ],
+    
+    "salas": [
+        {
+          "id": 1,
+          "sala": "4d",
+          "andar": "primeiro anda",
+          "local": "sala a esquerda"
+        },
+        {
+            "id": 2,
+            "sala": "1d",
+            "andar": "primeiro anda",
+            "local": "sala a direita ao lado do banheiro"
+          },
+          {
+            "id": 3,
+            "sala": "7g",
+            "andar": "primeiro andar ",
+            "local": "sala a direita de frente a lanchonete"
+          },
+          {
+            "id": 4,
+            "sala": "6f",
+            "andar": "primeiro andar",
+            "local": "sala a esquerda perto da lanchonete"
+          }
+      ],
+        "preço": [
+            {
+              "id": 1,
+              "filme": "Coração Valente",
+              "preco": "20 reias",
+              "sala": "4d"
+            },
+            {
+                "id": 2,
+                "filme": "O Labirinto do Fauno",
+                "preco": "30 reias",
+                "sala": "2d"
+              },
+              {
+                "id": 3,
+                "filme": "Cães de Aluguel",
+                "preco": "50 reias ",
+                "sala": "1d"
+              },
+              {
+                "id": 4,
+                "filme": "Quem Quer Ser um Milionário?",
+                "preco": "40 reais",
+                "sala": "6f"
+              }
+          ]
+        }
+    
